@@ -21,10 +21,5 @@
     "@vercel/ncc": "^0.38.1",
     "pnpm": "^8.14.3",
     "typescript": "^5.3.3"
-  },
-  "pnpm": {
-    "overrides": {
-      "fast-xml-parser": "5.3.4"
-    }
   }
 }
