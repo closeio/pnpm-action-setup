@@ -32,7 +32,7 @@ export function parseRunInstall(inputName: string): RunInstall[] {
     error(`Error for input "${inputName}" = ${input}`)
 
     if (exception instanceof ZodError) {
-      error(`Errors: ${exception.errors}`)
+      error(`Errors: ${exception.issues}`)
     } else {
       error(`Exception: ${exception}`)
     }
