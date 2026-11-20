@@ -16,10 +16,10 @@ jobs:
       - uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5 # v4.3.1
 
       - name: Setup pnpm
-        uses: pnpm/action-setup@fc06bc1257f339d1d5d8b3a19a8cae5388b55320 # v5.0.0
+        uses: closeio/pnpm-action-setup@63c15e6ec65bb21a224aaf6382a76d6510e197fa # v6
         with:
           run_install: true
-          version: 9
+          version: 10
 
       - name: Update dist/index.js
         run: pnpm run build
